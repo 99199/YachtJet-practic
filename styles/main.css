@@ -1,2 +1,12 @@
-@import 'common.css';
-@import 'header.css';
+@import './common.css';
+@import './header.css';
+@import './variables.css';
+@import './logo.css';
+@import './hero.css';
+@import './section.css';
+@import './about.css';
+@import './yachts.css';
+@import './container.css';
+@import './social.css';
+@import './benefist.css';
+@import './reviews.css';

@@ -1,185 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YachtJet</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
 
-<body>
-    <header>
-        <a href="#">yachtjet</a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">about</a>
-                </li>
-                <li>
-                    <a href="#yachts">Yachts</a>
-                </li>
-                <li>
-                    <a href="#reviews">Reviews</a>
-                </li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">In</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Yu</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Fa</a></li>
+  <body>
+    <header class="header">
+      <a class="page-logo" href="./index.html">yachtjet</a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a href="#about" class="header-nav-list-link">about</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#yachts" class="header-nav-list-link">Yachts</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="#reviews" class="header-nav-list-link">Reviews</a>
+          </li>
         </ul>
+      </nav>
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </header>
     <main>
-        <section>
-            <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
-            <p>
-                Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts
-                and embark on an unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.
-            </p>
-            <a href="#">Yacht rental</a>
-        </section>
-        <section id="about">
-            <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-            <h3>From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend
-                of luxury and functionality.</h3>
-            <p>Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter
-                which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book
-                now and get ready for an unforgettable adventure on the high seas.</p>
-            <img src="images/focus-yacht.jpg" alt="Big Yacht in sea">
-        </section>
-        <section class="yacht">
-            <h2>Choose your dream yacht and sail away into the sunset</h2>
-            <ul>
-                <li>
-                    <img src="images/Yacht/wgiteyaht.jpg" alt="White Yacht">
-                    <h3>Arrow
-                        LUXURY YAHTS</h3>
-
-                    <ul>
-                        <li>LENGTH 48m(155ft) </li>
-                        <li>BUILDER Admiral</li>
-                        <li>BUILT 2021</li>
-                        <li>GUESTS 11 in 5 cabins</li>
-                        <li>PRICE €33,500,000</li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="images/Yacht/img-yaht.jpg" alt="White Yacht">
-                    <h3>BENETTI OASIS 40M BO122
-                        LUXURY YAHTS</h3>
-                    <ul>
-                        <li>LENGTH 41m (133ft)</li>
-                        <li>SHIPYARD Benetti</li>
-                        <li>BUILT 2025</li>
-                        <li>GUESTS 10 in 5 cabins</li>
-                        <li>PRICE €23,210,000</li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="images/Yacht/img-yaht-2.jpg" alt="White Yacht">
-                    <h3>BELLE ANNA
-                        LUXURY YAHTS</h3>
-                    <ul>
-                        <li>LENGTH 50m(155ft) </li>
-                        <li>SHIPYARD ISA</li>
-                        <li>BUILT 2012</li>
-                        <li>GUESTS 12 in 6 cabins</li>
-                        <li>PRICE €21,000,000</li>
-                    </ul>
-                </li>
+      <!--HERO-SECTION-->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-h1">
+            Explore the High Seas with Our Luxury Yacht Rentals
+          </h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas.
+            Choose from our top-of-the-line yachts and embark on an
+            unforgettable journey surrounded by breathtaking views and
+            state-of-the-art amenities.
+          </p>
+          <a class="hero-link" href="#">Yacht rental</a>
+        </div>
+      </section>
+      <!--ABOUT-SECTION-->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="about-text-content">
+              <div class="about-title">
+                <h2 class="section-title">
+                  YachtJet fleet is here to take you on the ultimate adventure
+                </h2>
+              </div>
+              <div class="about-content-description">
+                <p class="about-text">
+                  From spacious decks to state-of-the-art technology, our yachts
+                  are designed to provide the perfect blend of luxury and
+                  functionality.
+                </p>
+                <p class="about-description">
+                  Take a look at our selection below and choose the yacht that
+                  matches your needs and preferences.No matter which yacht you
+                  choose, our experienced crew will ensure that your journey is
+                  smooth and enjoyable. Book now and get ready for an
+                  unforgettable adventure on the high seas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Yacht/focus-yacht.jpg" alt="Big Yacht in sea" />
+        </div>
+      </section>
+      <!--YACHT-SECTION-->
+      <section class="yacht section">
+        <div class="container">
+          <h2 class="section-title">
+            Choose your dream yacht and sail away into the sunset
+          </h2>
+          <ul class="yacht-list">
+            <li class="yacht-list-item">
+              <img
+                class="yacht-list-img"
+                src="./images/Yacht/wgiteyaht.jpg"
+                alt="White Yacht"
+              />
+              <div class="options-wrapper">
+                <h3 class="yacht-list-item-title">
+                  Arrow
+                  <span class="yacht-list-item-title-type">LUXURY YAHTS</span>
+                </h3>
+                <ul class="options">
+                  <li class="options-item">
+                    LENGTH <span class="options-type">48m(155ft)</span>
+                  </li>
+                  <li class="options-item">
+                    BUILDER <span class="options-type">Admiral</span>
+                  </li>
+                  <li class="options-item">
+                    BUILT <span class="options-type">2021</span>
+                  </li>
+                  <li class="options-item">
+                    GUESTS <span class="options-type">11 in 5 cabins</span>
+                  </li>
+                  <li class="options-item">
+                    PRICE <span class="options-type">€33,500,000</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="yacht-list-item">
+              <img
+                class="yacht-list-img"
+                src="./images/Yacht/img-yaht.jpg"
+                alt="White Yacht"
+              />
+              <div class="options-wrapper">
+                <h3 class="yacht-list-item-title">
+                  BENETTI OASIS 40M B...
+                  <span class="yacht-list-item-title-type"> LUXURY YAHTS</span>
+                </h3>
+                <ul class="options">
+                  <li class="options-item">
+                    LENGTH <span class="options-type">41m (133ft)</span>
+                  </li>
+                  <li class="options-item">
+                    SHIPYARD <span class="options-type">Benetti</span>
+                  </li>
+                  <li class="options-item">
+                    BUILT <span class="options-type">2025</span>
+                  </li>
+                  <li class="options-item">
+                    GUESTS <span class="options-type">10 in 5 cabins</span>
+                  </li>
+                  <li class="options-item">
+                    PRICE <span class="options-type">€23,210,000</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="yacht-list-item">
+              <img
+                class="yacht-list-img"
+                src="./images/Yacht/img-yaht-2.jpg"
+                alt="White Yacht"
+              />
+              <div class="options-wrapper">
+                <h3 class="yacht-list-item-title">
+                  BELLE ANNA
+                  <span class="yacht-list-item-title-type"> LUXURY YAHTS</span>
+                </h3>
+                <ul class="options">
+                  <li class="options-item">
+                    LENGTH <span class="options-type">50m(155ft)</span>
+                  </li>
+                  <li class="options-item">
+                    SHIPYARD <span class="options-type">ISA</span>
+                  </li>
+                  <li class="options-item">
+                    BUILT <span class="options-type">2012</span>
+                  </li>
+                  <li class="options-item">
+                    GUESTS <span class="options-type">12 in 6 cabins</span>
+                  </li>
+                  <li class="options-item">
+                    PRICE <span class="options-type">€21,000,000</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a href="#yacht" class="yacht-link">Yacht rental</a>
+        </div>
+      </section>
+      <!--BENEFIST-SECTION-->
+      <section class="section">
+        <div class="container benefis-container">
+          <h2 class="section-title" hidden>Benefist</h2>
+          <div class="benefist-wrapper">
+            <ul class="benefist-list">
+              <li class="benefist-list-item">
+                <p class="benefist-list-text">
+                  Swimming and water sports: try your hand at water skiing
+                </p>
+              </li>
+              <li class="benefist-list-item">
+                <p class="benefist-list-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="benefist-list-item">
+                <p class="benefist-list-text">
+                  Sightseeing tours: take a shore or island tour, enjoy the
+                  views and sunsets from the water
+                </p>
+              </li>
+              <li class="benefist-list-item">
+                <p class="benefist-list-text">
+                  Rest and relaxation: read a book or listen to music while
+                  enjoying the outdoor atmosphere.
+                </p>
+              </li>
             </ul>
-            <a href="#yacht">Yacht rental</a>
-        </section>
-        <section>
-            <h2>Benefist</h2>
-            <ul>
-                <li>
-                    <p>01</p>
-                    <p>Swimming and water sports: try your hand at water skiing</p>
-                </li>
-                <li>
-                    <p>02</p>
-                    <p>Fishing: try to catch your own dinner</p>
-                </li>
-                <li>
-                    <p>03</p>
-                    <p>Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water </p>
-                </li>
-                <li>
-                    <p>04</p>
-                    <p>Rest and relaxation: read a book or listen to music while enjoying the outdoor atmosphere.</p>
-                </li>
-            </ul>
-            <img src="images/on-yacht.jpg" alt="On Yacht">
-        </section>
-        <section>
-            <h2>YachtJet take pride in providing the best possible service and experience to our customers</h2>
-            <p>Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on
-                to find out what they have to say about their journey with us.</p>
-            <ul>
-                <li>
-                    <img src="images/team-person/p1.jpg" alt="John Wax">
-                    <h3>John Wax</h3>
-                    <p>I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision
-                        ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.
-                    </p>
-                </li>
-                <li>
-                    <img src="images/team-person/p2.jpg" alt="Victoria Romashenko">
-                    <h3>Victoria Romashenko</h3>
-                    <p>The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was
-                        beautifully designed, with all the amenities we needed, and the crew was attentive and friendly.
-                    </p>
-                </li>
-                <li>
-                    <img src="images/team-person/p3.jpg" alt="Ihor Trachuk">
-                    <h3>Ihor Trachuk</h3>
-                    <p>The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and
-                        elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!
-                    </p>
-                </li>
-            </ul>
-        </section>
+            <img
+              class="benefist-img"
+              src="images/on-yacht.jpg"
+              alt="On Yacht"
+            />
+          </div>
+        </div>
+      </section>
+      <!--YACHT-RENT-SECTION-->
+      <section class="section section-reviews">
+        <div class="container ">
+          <h2 class="section-title">
+            YachtJet take pride in providing the best possible service and
+            experience to our customers
+          </h2>
+          <p class="section-subtitle">
+            Our customers have enjoyed unforgettable moments on our yachts.
+            Don't just take our word for it - read on to find out what they have
+            to say about their journey with us.
+          </p>
+          <ul class="reviews">
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                src="./images/team-person/p1.jpg"
+                alt="John Wax"
+              />
+              <h3 class="reviews-title">John Wax</h3>
+              <p class="reviews-text">
+                I rented the Lagoon 620 with my family for a week-long vacation
+                and it was the best decision ever. The yacht was spacious,
+                comfortable, and luxurious, and the crew took care of
+                everything.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                src="./images/team-person/p2.jpg"
+                alt="Victoria Romashenko"
+              />
+              <h3 class="reviews-title">Victoria Romashenko</h3>
+              <p class="reviews-text">
+                The Sunseeker Manhattan 66 was the perfect choice for our
+                romantic getaway. The yacht was beautifully designed, with all
+                the amenities we needed, and the crew was attentive and
+                friendly.
+              </p>
+            </li>
+            <li class="reviews-item">
+              <img
+                class="reviews-img"
+                src="./images/team-person/p3.jpg"
+                alt="Ihor Trachuk"
+              />
+              <h3 class="reviews-title">Ihor Trachuk</h3>
+              <p class="reviews-text">
+                The Azimut 80 was the most luxurious yacht I've ever been on.
+                The cabins were spacious and elegant, and the outdoor areas were
+                perfect for relaxing and entertaining. Worth every penny!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-        <a href="#">yachtjet</a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">about</a>
-                </li>
-                <li>
-                    <a href="#yachts">Yachts</a>
-                </li>
-                <li>
-                    <a href="#reviews">Reviews</a>
-                </li>
-            </ul>
-        </nav>
+      <a href="#">yachtjet</a>
+      <nav>
         <ul>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">In</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Yu</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer nofollow">Fa</a></li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#yachts">Yachts</a>
+          </li>
+          <li>
+            <a href="#reviews">Reviews</a>
+          </li>
         </ul>
-        <section>
-            <h2>No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and
-                enjoyable.</h2>
-            <ul>
-                <li>
-                    <p>2023. Yacht Adventures</p>
-                </li>
-                <li>
-                    <p>Privacy Police</p>
-                </li>
-            </ul>
-        </section>
+      </nav>
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <section>
+        <h2>
+          No matter which yacht you choose, our experienced crew will ensure
+          that your journey is smooth and enjoyable.
+        </h2>
+        <ul>
+          <li>
+            <p>2023. Yacht Adventures</p>
+          </li>
+          <li>
+            <p>Privacy Police</p>
+          </li>
+        </ul>
+      </section>
     </footer>
-</body>
-
+  </body>
 </html>

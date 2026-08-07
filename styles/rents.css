@@ -1,0 +1,31 @@
+.rents-container {
+  display: flex;
+  padding: 0 100px 0 50px;
+  gap: 50px;
+}
+.form-btn {
+  background-color: #1b414b;
+  padding: 18px 75px;
+  border: none;
+  border-radius: 15px;
+}
+.form-wrapper .section-title {
+  margin-bottom: 50px;
+}
+.form-rents {
+  display: flex;
+  width: 472px;
+  gap: 18px;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.form-input {
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  color: #fbfbfb;
+}
+.input-coment {
+  padding-bottom: 80px;
+}

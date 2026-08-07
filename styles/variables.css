@@ -1,21 +1,16 @@
 :root {
-    --white-c: #fbfbfb;
-    --marine-blue: #1b414b;
-    --text-opacity-50: #1b414b80;
-    --text-opacity-70: #fbfbfbb3;
-    --text-opacity-40: #04030666;
-    --black-blue: #0E1823;
-    --black-text-c: #040306;
+  --white-c: #fbfbfb;
+  --marine-blue: #1b414b;
+  --text-opacity-50: #1b414b80;
+  --text-opacity-70: #fbfbfbb3;
+  --text-opacity-40: #04030666;
+  --black-blue: #0e1823;
+  --black-text-c: #040306;
 
-    /* FONT-FAMILY */
-    --font-family: "Inter", sans-serif;
-    /* HOVER-FOCUS */
-    --gray-h-f-c: #6E7E82;
-    --hover-icon: #062730;
-    /* BORDER-COLOR */
-    --border-gray-30: #fbfbfb59;
-    --border-black-10: #0403061a;
-
-
-    
+  /* HOVER-FOCUS */
+  --gray-h-f-c: #6e7e82;
+  --hover-icon: #062730;
+  /* BORDER-COLOR */
+  --border-gray-30: #fbfbfb59;
+  --border-black-10: #0403061a;
 }

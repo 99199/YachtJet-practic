@@ -1,58 +1,95 @@
 .hero {
-    padding-top: 235px;
-    padding-bottom: 180px;
-    background-image: url('../images/main-background.jpg') ;
-    background-repeat: no-repeat;
-    background-position: center;
+  padding-top: 260px;
+  padding-bottom: 243px;
+  background-image: url('../images/main-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-h1 {
-    width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 24px;
+  width: 335px;
+  margin: 0 auto 24px;
 
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 1;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #fbfbfb;
 
-    text-align: center;
+  text-align: center;
 }
 
 .hero-text {
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 48px;
+  width: 335px;
+  margin: 0 auto;
+  margin-bottom: 38px;
 
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.4;
-
-    text-align: center;
-
-    color: var(--text-opacity-70);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.16667;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  text-align: center;
 }
 
 .hero-link {
-    background: var(--marine-blue);
-    color: var(--white-c);
-    border-radius: 15px;
+  background: var(--marine-blue);
+  border-radius: 15px;
 
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
 
-    margin: 0 auto;
-    width: 179px;
-    height: 52px;
+  margin: 0 auto;
+  width: 141px;
+  height: 46px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-link:hover,
-.hero-link:focus{
-    background-color: #16333c;
+.hero-link:focus {
+  background-color: #16333c;
+}
+/* TABLE */
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 260px;
+    padding-bottom: 215px;
+  }
+  .hero-h1 {
+    width: 701px;
+    font-size: 70px;
+  }
+  .hero-text {
+    width: 600px;
+
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .hero-link {
+    width: 179px;
+    height: 52px;
+  }
+}
+/* LAPTOP  */
+@media screen and (min-width: 1240px) {
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 180px;
+  }
+  .hero-h1 {
+    width: 1001px;
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+  }
 }

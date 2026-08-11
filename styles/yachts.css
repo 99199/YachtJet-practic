@@ -14,7 +14,7 @@
   width: 335px;
   gap: 32px;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   overflow: hidden;
 }
 
@@ -91,8 +91,8 @@
   justify-content: center;
   align-items: center;
 
-  max-width: 180px;
-  height: 52px;
+  max-width: 141px;
+  height: 46px;
   margin: 0 auto;
 
   border: 1px solid var(--border-gray-30);
@@ -106,9 +106,14 @@
   }
   .yacht-list {
     width: 704px;
+    margin-bottom: 50px;
   }
   .yacht-list-item {
     min-width: 336px;
+  }
+  .yacht-link {
+    max-width: 179px;
+    height: 52px;
   }
 }
 @media screen and (min-width: 1280px) {
